@@ -1,0 +1,66 @@
+2025-08-30 16:28:20 - test - INFO - Test log message
+2025-08-30 16:28:20 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:28:21 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 16:28:21 - memory.conversation_manager - INFO - Created new conversation conv_test_user_20250830_162821 for user test_user
+2025-08-30 16:28:21 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 16:28:21 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Plugin calculator handled message
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 16:28:21 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:28:21 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 16:28:21 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 16:28:21 - core.ai_engine - INFO - MarkAI Core Engine initialized successfully
+2025-08-30 16:28:21 - core.ai_engine - INFO - Shutting down MarkAI Core Engine...
+2025-08-30 16:28:21 - memory.conversation_manager - INFO - Cleaned up 0 old conversations
+2025-08-30 16:28:21 - memory.conversation_manager - INFO - ConversationManager shut down
+2025-08-30 16:28:21 - memory.context_manager - INFO - Cleaned up 0 old interaction records
+2025-08-30 16:28:21 - memory.context_manager - INFO - ContextManager shut down
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 16:28:21 - core.ai_engine - INFO - MarkAI Core Engine shut down successfully
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 16:28:21 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 16:42:56 - test - INFO - Test log message
+2025-08-30 16:42:56 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:42:56 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 16:42:56 - memory.conversation_manager - INFO - Created new conversation conv_test_user_20250830_164256 for user test_user
+2025-08-30 16:42:56 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 16:42:56 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Plugin calculator handled message
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 16:42:56 - utils.config - INFO - Configuration loaded from config\config.example.json
+2025-08-30 16:42:56 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 16:42:56 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 16:42:56 - core.ai_engine - INFO - MarkAI Core Engine initialized successfully
+2025-08-30 16:42:56 - core.ai_engine - INFO - Shutting down MarkAI Core Engine...
+2025-08-30 16:42:56 - memory.conversation_manager - INFO - Cleaned up 0 old conversations
+2025-08-30 16:42:56 - memory.conversation_manager - INFO - ConversationManager shut down
+2025-08-30 16:42:56 - memory.context_manager - INFO - Cleaned up 0 old interaction records
+2025-08-30 16:42:56 - memory.context_manager - INFO - ContextManager shut down
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 16:42:56 - core.ai_engine - INFO - MarkAI Core Engine shut down successfully
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 16:42:56 - plugins.plugin_manager - INFO - Loaded 5 plugins

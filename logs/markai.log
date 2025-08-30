@@ -1,0 +1,166 @@
+2025-08-30 16:57:57 - __main__ - INFO - Starting MarkAI v1.0.0 in server mode
+2025-08-30 16:57:57 - __main__ - INFO - Starting MarkAI server on localhost:8000
+2025-08-30 16:57:57 - utils.config - WARNING - Using example config from config\config.example.json
+2025-08-30 16:57:57 - api.server - INFO - Starting MarkAI server...
+2025-08-30 16:57:57 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 16:57:57 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 16:57:57 - core.ai_engine - INFO - MarkAI Core Engine initialized successfully
+2025-08-30 16:57:57 - api.server - INFO - MarkAI server started on localhost:8000
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 16:57:57 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 16:58:08 - memory.conversation_manager - INFO - Created new conversation conv_user_3viz6d1wl_20250830_165808 for user user_3viz6d1wl
+2025-08-30 16:58:08 - core.ai_engine - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-08-30 16:58:08 - core.ai_engine - ERROR - Error processing message: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-08-30 17:00:40 - api.server - INFO - Shutting down MarkAI server...
+2025-08-30 17:00:40 - core.ai_engine - INFO - Shutting down MarkAI Core Engine...
+2025-08-30 17:00:40 - memory.conversation_manager - INFO - Cleaned up 0 old conversations
+2025-08-30 17:00:40 - memory.conversation_manager - INFO - ConversationManager shut down
+2025-08-30 17:00:40 - memory.context_manager - INFO - Cleaned up 0 old interaction records
+2025-08-30 17:00:40 - memory.context_manager - INFO - ContextManager shut down
+2025-08-30 17:00:40 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 17:00:40 - core.ai_engine - INFO - MarkAI Core Engine shut down successfully
+2025-08-30 17:00:40 - api.server - INFO - MarkAI server shut down successfully
+2025-08-30 17:00:44 - __main__ - INFO - Starting MarkAI v1.0.0 in server mode
+2025-08-30 17:00:45 - __main__ - INFO - Starting MarkAI server on localhost:8000
+2025-08-30 17:00:45 - utils.config - WARNING - Using example config from config\config.example.json
+2025-08-30 17:00:45 - api.server - INFO - Starting MarkAI server...
+2025-08-30 17:00:45 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 17:00:45 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 17:00:45 - core.ai_engine - INFO - MarkAI Core Engine initialized successfully
+2025-08-30 17:00:45 - api.server - INFO - MarkAI server started on localhost:8000
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 17:00:45 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 17:00:55 - memory.conversation_manager - INFO - Created new conversation conv_user_my7812lmk_20250830_170055 for user user_my7812lmk
+2025-08-30 17:00:55 - core.ai_engine - ERROR - Error generating response: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-08-30 17:00:55 - core.ai_engine - ERROR - Error processing message: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-08-30 17:02:10 - core.ai_engine - ERROR - Error generating response: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-08-30 17:02:10 - core.ai_engine - ERROR - Error processing message: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-08-30 17:02:16 - api.server - INFO - Shutting down MarkAI server...
+2025-08-30 17:02:16 - core.ai_engine - INFO - Shutting down MarkAI Core Engine...
+2025-08-30 17:02:16 - memory.conversation_manager - INFO - Cleaned up 0 old conversations
+2025-08-30 17:02:16 - memory.conversation_manager - INFO - ConversationManager shut down
+2025-08-30 17:02:16 - memory.context_manager - INFO - Cleaned up 0 old interaction records
+2025-08-30 17:02:16 - memory.context_manager - INFO - ContextManager shut down
+2025-08-30 17:02:16 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 17:02:16 - core.ai_engine - INFO - MarkAI Core Engine shut down successfully
+2025-08-30 17:02:16 - api.server - INFO - MarkAI server shut down successfully
+2025-08-30 17:02:20 - __main__ - INFO - Starting MarkAI v1.0.0 in server mode
+2025-08-30 17:02:21 - __main__ - INFO - Starting MarkAI server on localhost:8000
+2025-08-30 17:02:21 - utils.config - WARNING - Using example config from config\config.example.json
+2025-08-30 17:02:21 - api.server - INFO - Starting MarkAI server...
+2025-08-30 17:02:21 - memory.conversation_manager - INFO - ConversationManager initialized
+2025-08-30 17:02:21 - memory.context_manager - INFO - ContextManager initialized
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 17:02:21 - core.ai_engine - INFO - MarkAI Core Engine initialized successfully
+2025-08-30 17:02:21 - api.server - INFO - MarkAI server started on localhost:8000
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: calculator
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: weather
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: file_manager
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: code_analyzer
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded built-in plugin: task_manager
+2025-08-30 17:02:21 - plugins.plugin_manager - INFO - Loaded 5 plugins
+2025-08-30 17:02:32 - memory.conversation_manager - INFO - Created new conversation conv_user_0eq7poh1s_20250830_170232 for user user_0eq7poh1s
+2025-08-30 17:02:32 - core.ai_engine - ERROR - Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-08-30 17:02:32 - core.ai_engine - ERROR - Error processing message: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+violations {
+}
+violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-08-30 17:17:06 - api.server - INFO - Shutting down MarkAI server...
+2025-08-30 17:17:06 - core.ai_engine - INFO - Shutting down MarkAI Core Engine...
+2025-08-30 17:17:06 - memory.conversation_manager - INFO - Cleaned up 0 old conversations
+2025-08-30 17:17:06 - memory.conversation_manager - INFO - ConversationManager shut down
+2025-08-30 17:17:06 - memory.context_manager - INFO - Cleaned up 0 old interaction records
+2025-08-30 17:17:06 - memory.context_manager - INFO - ContextManager shut down
+2025-08-30 17:17:06 - plugins.plugin_manager - INFO - PluginManager shut down
+2025-08-30 17:17:06 - core.ai_engine - INFO - MarkAI Core Engine shut down successfully
+2025-08-30 17:17:06 - api.server - INFO - MarkAI server shut down successfully
+2025-08-30 17:43:49 - markai.main - INFO - Starting MarkAI Advanced v1.0.0 in web mode
+2025-08-30 17:43:49 - markai.utils.config - INFO - Configuration loaded from config\advanced_config.json
+2025-08-30 17:43:49 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-30 17:44:19 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-30 17:44:19 - markai.plugins.plugin_manager - INFO - PluginManager initialized
+2025-08-30 17:44:19 - markai.core.advanced_ai_engine - INFO - Advanced MarkAI Core Engine initialized successfully
+2025-08-30 17:44:19 - markai.api.advanced_server - INFO - Starting MarkAI Advanced Web Interface on 127.0.0.1:8000
+2025-08-30 17:44:19 - markai.memory.conversation_manager - INFO - Database initialized successfully
+2025-08-30 17:44:19 - markai.plugins.plugin_manager - INFO - Created plugins directory

@@ -1,0 +1,150 @@
+{
+    "ai": {
+        "provider": "gemini",
+        "model_name": "gemini-pro",
+        "api_key": "${GEMINI_API_KEY}",
+        "temperature": 0.7,
+        "max_tokens": 8192,
+        "top_p": 0.9,
+        "top_k": 40
+    },
+    "advanced_ai": {
+        "enable_advanced_reasoning": true,
+        "enable_chain_of_thought": true,
+        "enable_meta_cognition": true,
+        "enable_memory_networks": true,
+        "enable_adaptive_learning": true,
+        "default_processing_mode": "balanced",
+        "default_reasoning_type": "analytical",
+        "confidence_threshold": 0.7,
+        "max_reasoning_steps": 10,
+        "enable_multimodal": true,
+        "enable_safety_assessment": true
+    },
+    "memory": {
+        "enable_episodic_memory": true,
+        "enable_semantic_memory": true,
+        "enable_procedural_memory": true,
+        "memory_retention_days": 30,
+        "max_memories_per_type": 10000,
+        "similarity_threshold": 0.8,
+        "vector_dimension": 384,
+        "use_faiss": true,
+        "memory_consolidation_interval": 3600
+    },
+    "conversation": {
+        "max_history_length": 100,
+        "enable_conversation_branching": true,
+        "auto_save_conversations": true,
+        "conversation_timeout_minutes": 60,
+        "max_concurrent_conversations": 100,
+        "enable_conversation_analytics": true
+    },
+    "plugins": {
+        "enable_plugin_system": true,
+        "plugin_directories": ["plugins", "custom_plugins"],
+        "enabled_plugins": [
+            "web_research",
+            "code_intelligence", 
+            "data_science",
+            "creative_content"
+        ],
+        "plugin_timeout_seconds": 30,
+        "max_plugin_memory_mb": 512
+    },
+    "web_interface": {
+        "host": "127.0.0.1",
+        "port": 8000,
+        "enable_websocket": true,
+        "enable_file_upload": true,
+        "max_file_size_mb": 10,
+        "supported_file_types": [
+            "text/plain",
+            "text/markdown",
+            "application/pdf",
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+        ],
+        "enable_real_time_monitoring": true,
+        "session_timeout_minutes": 30
+    },
+    "cli_interface": {
+        "enable_rich_formatting": true,
+        "enable_real_time_monitoring": false,
+        "auto_save": true,
+        "default_export_format": "markdown",
+        "command_history_limit": 1000,
+        "enable_conversation_branching": true
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file": "logs/markai.log",
+        "max_file_size_mb": 100,
+        "backup_count": 5,
+        "enable_console_logging": true,
+        "log_ai_interactions": true,
+        "log_performance_metrics": true
+    },
+    "database": {
+        "type": "sqlite",
+        "path": "data/markai.db",
+        "enable_connection_pooling": true,
+        "max_connections": 20,
+        "connection_timeout_seconds": 30,
+        "enable_backup": true,
+        "backup_interval_hours": 24
+    },
+    "security": {
+        "enable_rate_limiting": true,
+        "requests_per_minute": 60,
+        "enable_input_validation": true,
+        "enable_output_filtering": true,
+        "max_input_length": 10000,
+        "blocked_words": [],
+        "enable_content_safety": true,
+        "safety_threshold": 0.8
+    },
+    "performance": {
+        "enable_caching": true,
+        "cache_ttl_seconds": 3600,
+        "max_cache_size_mb": 256,
+        "enable_request_batching": true,
+        "batch_size": 10,
+        "batch_timeout_seconds": 1,
+        "enable_response_compression": true,
+        "enable_performance_monitoring": true
+    },
+    "multimodal": {
+        "enable_image_processing": true,
+        "enable_document_processing": true,
+        "enable_audio_processing": false,
+        "image_max_size_mb": 5,
+        "supported_image_formats": ["jpg", "jpeg", "png", "webp"],
+        "enable_ocr": true,
+        "enable_image_analysis": true
+    },
+    "research": {
+        "enable_web_search": false,
+        "search_engine": "google",
+        "max_search_results": 10,
+        "search_timeout_seconds": 10,
+        "enable_content_extraction": true,
+        "user_agent": "MarkAI/1.0"
+    },
+    "export": {
+        "supported_formats": ["markdown", "json", "html", "pdf"],
+        "include_metadata": true,
+        "include_reasoning_steps": false,
+        "include_confidence_scores": true,
+        "export_directory": "exports"
+    },
+    "development": {
+        "enable_debug_mode": false,
+        "enable_hot_reload": false,
+        "enable_profiling": false,
+        "enable_memory_tracking": false,
+        "enable_query_logging": false
+    }
+}

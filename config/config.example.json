@@ -1,0 +1,57 @@
+{
+  "api": {
+    "gemini": {
+      "api_key": "AIzaSyANMKlKA8gX-2N9UaijwySgmmvVMjfdxls",
+      "model": "gemini-1.5-pro-latest",
+      "temperature": 0.7,
+      "max_tokens": 8192,
+      "safety_settings": {
+        "harassment": "BLOCK_MEDIUM_AND_ABOVE",
+        "hate_speech": "BLOCK_MEDIUM_AND_ABOVE",
+        "sexually_explicit": "BLOCK_MEDIUM_AND_ABOVE",
+        "dangerous_content": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    }
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": false,
+    "cors_origins": ["http://localhost:3000", "http://127.0.0.1:3000"],
+    "secret_key": "your-secret-key-here-change-this-in-production"
+  },
+  "database": {
+    "url": "sqlite:///./markai.db",
+    "echo": false
+  },
+  "memory": {
+    "max_conversations": 1000,
+    "max_tokens_per_conversation": 50000,
+    "vector_db_path": "./memory/vectors",
+    "embedding_model": "all-MiniLM-L6-v2"
+  },
+  "features": {
+    "voice_enabled": true,
+    "image_processing": true,
+    "document_processing": true,
+    "web_search": false,
+    "plugin_system": true
+  },
+  "security": {
+    "enable_encryption": true,
+    "session_timeout": 3600,
+    "max_request_size": 50000000
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/markai.log",
+    "max_size": "10MB",
+    "backup_count": 5
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "en",
+    "auto_save": true,
+    "conversation_limit": 50
+  }
+}
