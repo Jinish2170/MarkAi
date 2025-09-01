@@ -184,49 +184,6 @@ The advanced memory system automatically:
 - **Export Capabilities**: Export conversations to various formats
 - **Search & Analytics**: Search through conversation history
 
-### Plugin Development
-```python
-# Example custom plugin
-from markai.plugins.plugin_manager import BasePlugin
-
-class MyCustomPlugin(BasePlugin):
-    def get_name(self) -> str:
-        return "My Custom Plugin"
-    
-    async def process(self, input_data: str) -> str:
-        # Your custom processing logic
-        return f"Processed: {input_data}"
-```
-
-### API Integration
-```python
-import requests
-import asyncio
-
-# Basic chat API
-response = requests.post("http://localhost:8000/chat", json={
-    "message": "Explain quantum computing",
-    "conversation_id": "user_123",
-    "reasoning_mode": "analytical"
-})
-print(response.json())
-
-# Advanced API with file upload
-files = {"file": open("document.pdf", "rb")}
-data = {"conversation_id": "user_123"}
-response = requests.post("http://localhost:8000/process_file", files=files, data=data)
-print(response.json())
-
-# WebSocket for real-time communication
-import websocket
-
-def on_message(ws, message):
-    print(f"Received: {message}")
-
-ws = websocket.WebSocketApp("ws://localhost:8000/ws",
-                          on_message=on_message)
-ws.run_forever()
-```
 
 ## 🔧 Configuration & Customization
 
@@ -559,6 +516,6 @@ If you use MarkAI in your research or projects, please cite:
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/MarkAI?style=social)](https://github.com/yourusername/MarkAI)
 [![GitHub issues](https://img.shields.io/github/issues/yourusername/MarkAI)](https://github.com/yourusername/MarkAI/issues)
 
-**Made with ❤️ by the MarkAI Team**
+**Made with ❤️ by Jinish Kathiriya**
 
 </div>
